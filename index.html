@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+<header>
+    <nav class="menu">
+        <div class="navigation hidden">
+            <ul class="m">
+                <li class="navigation-item">
+                    <a class="navigation-link current-link" href="#" data-id="cat">Main page</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#action(setA)" data-id="cat0">Action (set A)</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#action(setB)" data-id="cat1">Action (set B)</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#animal(setA)" data-id="cat2">Animal (set A)</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#animal(setB)" data-id="cat3">Animal (set B)</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#clothes" data-id="cat4">Clothes</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#emotions" data-id="cat5">Emotions</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#food" data-id="cat6">Food</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#body" data-id="cat7">Body</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#statistic">Statistic</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <h1 class="logo">
+        <a href="/" style = "text-decoration: none">English for kids</a>
+    </h1>
+    <div class="toggler-wrapper">
+    <input type="checkbox" id="switch" />
+        <label for="switch">
+        <span class="train">Train</span>
+        <span class="play none">Play</span></label>
+    </div>
+</header>
+    <div class="cards-list" id="wordsList"></div>
+
+</div>
+<script type="module" src="script.js"></script>
+</body>
+</html>
