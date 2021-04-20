@@ -1,5 +1,6 @@
 import cards from './cards.js';
 
+
 const container =  document.querySelector(".container");
 const toggler = document.querySelector('#switch');
 const train = document.querySelector('.train');

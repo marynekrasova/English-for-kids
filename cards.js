@@ -1,4 +1,4 @@
-const cards = [
+const  cards = [
   [
     {
       word: 'Action (set A)',
